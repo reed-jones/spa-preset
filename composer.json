@@ -1,0 +1,23 @@
+{
+    "name": "reed-jones/spa-preset",
+    "description": "A Vuejs SPA Laravel Preset",
+    "keywords": ["laravel", "laravel preset", "vuejs"],
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Reed Jones",
+            "email": "reedjones@reedjones.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ReedJones\\SPAPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [ "ReedJones\\SPAPreset\\SPAPresetServiceProvider" ]
+        }
+    }
+}
