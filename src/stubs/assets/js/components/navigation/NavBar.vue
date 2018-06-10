@@ -1,8 +1,8 @@
 <template lang="pug">
   .top-right.links
-      a(href="/") Home
-      a(href="/secondpage") secondpage
-      a(href="/error") 404 page
+      router-link(to="/") Home
+      router-link(to="/secondpage") secondpage
+      router-link(to="/error") 404 page
 </template>
 
 <script>
