@@ -55,7 +55,7 @@ class Preset extends LaravelPreset
 
     public static function updateViewsFiles()
     {
-        File::copyDirectory(self::STUBS . 'assets/views', resource_path('assets/views'));
+        File::copyDirectory(self::STUBS . 'views', resource_path('views'));
     }
 
     public static function updateLaravelRoutes()
